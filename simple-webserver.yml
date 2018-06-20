@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-webserver-pod
+  labels:
+    name: simple-webserver-pod
+    app: simple-webserver-app
+
+spec:
+  containers:
+    - name: simple-webserver-pod
+      image: keivan/simple-webserver
+      ports:
+      - containerPort:  800
