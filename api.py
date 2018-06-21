@@ -1,7 +1,3 @@
-# Product service
-# We want to make it restful api, so we will import flask and flask_restful
-# flask is a web framework for python
-
 from flask import Flask
 from flask_restful import Resource, Api
 

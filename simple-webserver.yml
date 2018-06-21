@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: helloworld-py-pod
+  name: simple-webserver-py-pod
   labels:
-    name: helloworld-py-pod
-    app: helloworld-py-app
+    name: simple-webserver-py-pod
+    app: simple-webserver-py-app
 spec:
   containers:
-    - name: helloworld-py-pod
+    - name: simple-webserver-py-pod
       image: keivan/helloworld-py
       ports:
       - containerPort:  5000
